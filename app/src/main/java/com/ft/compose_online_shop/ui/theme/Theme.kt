@@ -28,8 +28,8 @@ private val DarkColorPalette = darkColors(
     secondary = Orange,
     background = White,
     surface = LightGray,
-    onPrimary = Color.White,
-    onSecondary = Color.White,
+    onPrimary = White,
+    onSecondary = White,
     onBackground = Black,
     onSurface = Black,
 )
@@ -40,8 +40,8 @@ private val LightColorPalette = lightColors(
     secondary = Orange,
     background = White,
     surface = LightGray,
-    onPrimary = Color.White,
-    onSecondary = Color.White,
+    onPrimary = White,
+    onSecondary = White,
     onBackground = Black,
     onSurface = Black,
 )

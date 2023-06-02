@@ -242,3 +242,8 @@ fun ProductDetails.getStructuredProducts(): Product {
     }
 }
 
+val String.capitalizeWords
+    get() = this.lowercase().split(" ").joinToString(" ") { it.replaceFirstChar {
+        if (it.isLowerCase()) it.titlecase() else it.toString()
+    } }
+

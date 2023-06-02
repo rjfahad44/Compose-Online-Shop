@@ -4,6 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -18,13 +20,15 @@ import com.ft.compose_online_shop.screens.holder.HolderScreen
 import com.ft.compose_online_shop.ui.theme.ComposeOnlineShopTheme
 import com.ft.compose_online_shop.utils.LocalScreenSize
 import com.ft.compose_online_shop.utils.getScreenSize
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             /** The status bar color which is dynamic */
-            val defaultStatusBarColor = androidx.compose.material.MaterialTheme.colors.background.toArgb()
+            val defaultStatusBarColor = MaterialTheme.colors.background.toArgb()
             var statusBarColor by remember { mutableStateOf(defaultStatusBarColor) }
             window.statusBarColor = statusBarColor
 
@@ -41,8 +45,8 @@ class MainActivity : ComponentActivity() {
                     LocalNavHost provides navController
                 ) {
                     // A surface container using the 'background' color from the theme
-                    androidx.compose.material.Surface(modifier = Modifier.fillMaxSize(),
-                        color = androidx.compose.material.MaterialTheme.colors.background) {
+                    Surface(modifier = Modifier.fillMaxSize(),
+                        color = MaterialTheme.colors.background) {
                         HolderScreen(
                             onStatusBarColorChange = {
                                 /** Updating the color of the status bar */
