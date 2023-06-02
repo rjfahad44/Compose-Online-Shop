@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -55,6 +56,7 @@ import com.ft.compose_online_shop.components.DrawableButton
 import com.ft.compose_online_shop.components.IconButton
 import com.ft.compose_online_shop.components.SecondaryTopBar
 import com.ft.compose_online_shop.components.SummaryRow
+import com.ft.compose_online_shop.utils.encryptCardNumber
 import com.skydoves.whatif.whatIf
 import com.skydoves.whatif.whatIfNotNull
 
