@@ -1,4 +1,4 @@
-package com.mustfaibra.roffu.screens.holder
+package com.ft.compose_online_shop.screens.holder
 
 
 import androidx.compose.runtime.mutableStateListOf
