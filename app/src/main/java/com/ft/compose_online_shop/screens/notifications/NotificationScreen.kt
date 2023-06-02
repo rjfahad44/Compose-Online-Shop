@@ -12,9 +12,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.mustfaibra.roffu.R
-import com.mustfaibra.roffu.sealed.UiState
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.R
+import com.ft.compose_online_shop.sealed.UiState
+import com.ft.compose_online_shop.ui.theme.Dimension
 
 @Composable
 fun NotificationScreen(

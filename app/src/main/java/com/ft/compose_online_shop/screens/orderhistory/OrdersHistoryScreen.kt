@@ -28,12 +28,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.mustfaibra.roffu.R
+import com.ft.compose_online_shop.R
 import com.ft.compose_online_shop.components.SecondaryTopBar
-import com.mustfaibra.roffu.models.Location
-import com.mustfaibra.roffu.models.PaymentProvider
-import com.mustfaibra.roffu.sealed.UiState
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.models.Location
+import com.ft.compose_online_shop.models.PaymentProvider
+import com.ft.compose_online_shop.sealed.UiState
+import com.ft.compose_online_shop.ui.theme.Dimension
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

@@ -1,7 +1,17 @@
 package com.ft.compose_online_shop.screens.login
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.Divider
 import androidx.compose.material.Icon
@@ -22,11 +32,12 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.ft.compose_online_shop.R
 import com.ft.compose_online_shop.components.CustomButton
 import com.ft.compose_online_shop.components.CustomInputField
 import com.ft.compose_online_shop.components.DrawableButton
-import com.mustfaibra.roffu.sealed.UiState
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.sealed.UiState
+import com.ft.compose_online_shop.ui.theme.Dimension
 
 @Composable
 fun LoginScreen(

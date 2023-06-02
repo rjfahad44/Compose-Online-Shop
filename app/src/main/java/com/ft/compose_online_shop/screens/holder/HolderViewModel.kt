@@ -4,9 +4,9 @@ package com.ft.compose_online_shop.screens.holder
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mustfaibra.roffu.models.CartItem
-import com.mustfaibra.roffu.repositories.ProductsRepository
-import com.mustfaibra.roffu.utils.getStructuredCartItems
+import com.ft.compose_online_shop.models.CartItem
+import com.ft.compose_online_shop.repositories.ProductsRepository
+import com.ft.compose_online_shop.utils.getStructuredCartItems
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.launch

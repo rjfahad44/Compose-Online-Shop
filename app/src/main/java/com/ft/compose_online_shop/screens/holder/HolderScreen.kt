@@ -38,7 +38,6 @@ import com.ft.compose_online_shop.providers.LocalNavHost
 import com.ft.compose_online_shop.screens.bookmarks.BookmarksScreen
 import com.ft.compose_online_shop.screens.cart.CartScreen
 import com.ft.compose_online_shop.screens.checkout.CheckoutScreen
-import com.ft.compose_online_shop.screens.holder.HolderViewModel
 import com.ft.compose_online_shop.screens.home.HomeScreen
 import com.ft.compose_online_shop.screens.locationpicker.LocationPickerScreen
 import com.ft.compose_online_shop.screens.login.LoginScreen

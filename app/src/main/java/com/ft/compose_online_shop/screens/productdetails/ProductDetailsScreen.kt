@@ -12,7 +12,17 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.MaterialTheme
@@ -35,13 +45,14 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.rememberAsyncImagePainter
+import com.ft.compose_online_shop.R
 import com.ft.compose_online_shop.components.CustomButton
 import com.ft.compose_online_shop.components.DrawableButton
 import com.ft.compose_online_shop.components.ReactiveBookmarkIcon
-import com.mustfaibra.roffu.sealed.Orientation
-import com.mustfaibra.roffu.ui.theme.Dimension
-import com.mustfaibra.roffu.utils.addMoveAnimation
-import com.mustfaibra.roffu.utils.getValidColor
+import com.ft.compose_online_shop.sealed.Orientation
+import com.ft.compose_online_shop.ui.theme.Dimension
+import com.ft.compose_online_shop.utils.addMoveAnimation
+import com.ft.compose_online_shop.utils.getValidColor
 
 @Composable
 fun ProductDetailsScreen(

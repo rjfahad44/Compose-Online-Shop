@@ -3,7 +3,7 @@ package com.ft.compose_online_shop.screens.notifications
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.mustfaibra.roffu.sealed.UiState
+import com.ft.compose_online_shop.sealed.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

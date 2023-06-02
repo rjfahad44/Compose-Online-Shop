@@ -30,11 +30,11 @@ import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
-import com.mustfaibra.roffu.R
+import com.ft.compose_online_shop.R
 import com.ft.compose_online_shop.components.CustomButton
-import com.mustfaibra.roffu.sealed.Orientation
-import com.mustfaibra.roffu.ui.theme.Dimension
-import com.mustfaibra.roffu.utils.addMoveAnimation
+import com.ft.compose_online_shop.sealed.Orientation
+import com.ft.compose_online_shop.ui.theme.Dimension
+import com.ft.compose_online_shop.utils.addMoveAnimation
 
 @Composable
 fun OnboardScreen(

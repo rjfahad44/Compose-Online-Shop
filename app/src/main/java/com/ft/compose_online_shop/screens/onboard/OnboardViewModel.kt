@@ -5,8 +5,8 @@ import android.content.Context
 import androidx.datastore.preferences.core.edit
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mustfaibra.roffu.utils.APP_LAUNCHED
-import com.mustfaibra.roffu.utils.dataStore
+import com.ft.compose_online_shop.utils.APP_LAUNCHED
+import com.ft.compose_online_shop.utils.dataStore
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

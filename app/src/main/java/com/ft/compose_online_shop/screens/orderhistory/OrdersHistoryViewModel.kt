@@ -6,11 +6,11 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mustfaibra.roffu.models.OrderDetails
-import com.mustfaibra.roffu.repositories.ProductsRepository
-import com.mustfaibra.roffu.sealed.DataResponse
-import com.mustfaibra.roffu.sealed.Error
-import com.mustfaibra.roffu.sealed.UiState
+import com.ft.compose_online_shop.models.OrderDetails
+import com.ft.compose_online_shop.repositories.ProductsRepository
+import com.ft.compose_online_shop.sealed.DataResponse
+import com.ft.compose_online_shop.sealed.Error
+import com.ft.compose_online_shop.sealed.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

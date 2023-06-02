@@ -5,11 +5,23 @@ import android.os.Looper
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.KeyboardActionScope
@@ -32,6 +44,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.IntOffset
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
+import com.ft.compose_online_shop.R
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
@@ -39,9 +52,9 @@ import com.google.accompanist.pager.rememberPagerState
 import com.ft.compose_online_shop.components.CustomInputField
 import com.ft.compose_online_shop.components.DrawableButton
 import com.ft.compose_online_shop.components.ProductItemLayout
-import com.mustfaibra.roffu.models.Advertisement
-import com.mustfaibra.roffu.sealed.UiState
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.models.Advertisement
+import com.ft.compose_online_shop.sealed.UiState
+import com.ft.compose_online_shop.ui.theme.Dimension
 import kotlinx.coroutines.launch
 import timber.log.Timber
 
