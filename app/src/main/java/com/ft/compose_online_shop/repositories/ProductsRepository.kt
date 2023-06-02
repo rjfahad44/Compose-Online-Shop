@@ -12,7 +12,7 @@ import com.ft.compose_online_shop.sealed.DataResponse
 import com.ft.compose_online_shop.sealed.Error
 import com.ft.compose_online_shop.utils.UserPref
 import com.ft.compose_online_shop.utils.getFormattedDate
-import java.util.*
+import java.util.Date
 import javax.inject.Inject
 
 class ProductsRepository @Inject constructor(

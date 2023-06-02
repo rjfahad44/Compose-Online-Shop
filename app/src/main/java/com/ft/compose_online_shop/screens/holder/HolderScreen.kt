@@ -32,9 +32,9 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
 import com.ft.compose_online_shop.components.AppBottomNav
 import com.ft.compose_online_shop.components.CustomSnackBar
-import com.mustfaibra.roffu.models.CartItem
-import com.mustfaibra.roffu.models.User
-import com.mustfaibra.roffu.providers.LocalNavHost
+import com.ft.compose_online_shop.models.CartItem
+import com.ft.compose_online_shop.models.User
+import com.ft.compose_online_shop.providers.LocalNavHost
 import com.ft.compose_online_shop.screens.bookmarks.BookmarksScreen
 import com.ft.compose_online_shop.screens.cart.CartScreen
 import com.ft.compose_online_shop.screens.checkout.CheckoutScreen
@@ -50,9 +50,9 @@ import com.ft.compose_online_shop.screens.profile.ProfileScreen
 import com.ft.compose_online_shop.screens.search.SearchScreen
 import com.ft.compose_online_shop.screens.signup.SignupScreen
 import com.ft.compose_online_shop.screens.splash.SplashScreen
-import com.mustfaibra.roffu.sealed.Screen
-import com.mustfaibra.roffu.utils.UserPref
-import com.mustfaibra.roffu.utils.getDp
+import com.ft.compose_online_shop.sealed.Screen
+import com.ft.compose_online_shop.utils.UserPref
+import com.ft.compose_online_shop.utils.getDp
 import com.skydoves.whatif.whatIfNotNull
 import kotlinx.coroutines.launch
 
