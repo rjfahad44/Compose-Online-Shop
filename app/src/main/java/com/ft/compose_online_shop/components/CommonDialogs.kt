@@ -15,7 +15,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.ui.theme.Dimension
 
 @Composable
 fun SimpleLoadingDialog(
