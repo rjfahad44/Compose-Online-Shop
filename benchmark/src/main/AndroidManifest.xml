@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ft.compose_online_shoes_shop">
+
+    <queries>
+        <package android:name="com.ft.compose_online_shoes_shop" />
+    </queries>
+</manifest>
