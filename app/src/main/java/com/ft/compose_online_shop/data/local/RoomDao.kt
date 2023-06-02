@@ -1,4 +1,4 @@
-package com.mustfaibra.roffu.data.local
+package com.ft.compose_online_shop.data.local
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -6,6 +6,27 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
+import com.ft.compose_online_shop.models.Advertisement
+import com.ft.compose_online_shop.models.BookmarkItem
+import com.ft.compose_online_shop.models.BookmarkItemWithProduct
+import com.ft.compose_online_shop.models.CartItem
+import com.ft.compose_online_shop.models.CartItemWithProduct
+import com.ft.compose_online_shop.models.LocalManufacturer
+import com.ft.compose_online_shop.models.Location
+import com.ft.compose_online_shop.models.Manufacturer
+import com.ft.compose_online_shop.models.Order
+import com.ft.compose_online_shop.models.OrderDetails
+import com.ft.compose_online_shop.models.OrderItem
+import com.ft.compose_online_shop.models.OrderPayment
+import com.ft.compose_online_shop.models.PaymentProvider
+import com.ft.compose_online_shop.models.Product
+import com.ft.compose_online_shop.models.ProductColor
+import com.ft.compose_online_shop.models.ProductDetails
+import com.ft.compose_online_shop.models.ProductSize
+import com.ft.compose_online_shop.models.Review
+import com.ft.compose_online_shop.models.User
+import com.ft.compose_online_shop.models.UserPaymentProvider
+import com.ft.compose_online_shop.models.UserPaymentProviderDetails
 import com.mustfaibra.roffu.models.*
 import kotlinx.coroutines.flow.Flow
 

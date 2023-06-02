@@ -2,7 +2,7 @@ package com.ft.compose_online_shop.injector
 
 import android.content.Context
 import androidx.room.Room
-import com.mustfaibra.roffu.data.local.RoomDb
+import com.ft.compose_online_shop.data.local.RoomDb
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

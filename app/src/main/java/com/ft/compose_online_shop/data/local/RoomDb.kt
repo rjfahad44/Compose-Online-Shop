@@ -1,9 +1,24 @@
-package com.mustfaibra.roffu.data.local
+package com.ft.compose_online_shop.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.mustfaibra.roffu.R
-import com.mustfaibra.roffu.models.*
+import com.ft.compose_online_shop.R
+import com.ft.compose_online_shop.models.Advertisement
+import com.ft.compose_online_shop.models.BookmarkItem
+import com.ft.compose_online_shop.models.CartItem
+import com.ft.compose_online_shop.models.Location
+import com.ft.compose_online_shop.models.Manufacturer
+import com.ft.compose_online_shop.models.Notification
+import com.ft.compose_online_shop.models.Order
+import com.ft.compose_online_shop.models.OrderItem
+import com.ft.compose_online_shop.models.OrderPayment
+import com.ft.compose_online_shop.models.PaymentProvider
+import com.ft.compose_online_shop.models.Product
+import com.ft.compose_online_shop.models.ProductColor
+import com.ft.compose_online_shop.models.ProductSize
+import com.ft.compose_online_shop.models.Review
+import com.ft.compose_online_shop.models.User
+import com.ft.compose_online_shop.models.UserPaymentProvider
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject
