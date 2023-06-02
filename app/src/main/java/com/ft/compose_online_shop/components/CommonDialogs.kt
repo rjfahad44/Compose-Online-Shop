@@ -1,4 +1,4 @@
-package com.mustfaibra.roffu.components
+package com.ft.compose_online_shop.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

@@ -1,4 +1,4 @@
-package com.mustfaibra.roffu.components
+package com.ft.compose_online_shop.components
 
 import androidx.compose.animation.animateColor
 import androidx.compose.animation.core.LinearEasing
@@ -11,7 +11,22 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActionScope
@@ -56,9 +71,10 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
 import coil.compose.AsyncImage
+import com.ft.compose_online_shop.R
 import com.ft.compose_online_shop.sealed.MenuOption
 import com.ft.compose_online_shop.sealed.Screen
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.ui.theme.Dimension
 import com.ft.compose_online_shop.utils.getDiscountedValue
 import com.ft.compose_online_shop.utils.getDp
 import kotlin.math.roundToInt
@@ -552,6 +568,10 @@ fun ProductItemLayout(
                 ReactiveCartIcon(
                     isOnCart = onCart,
                     onCartChange = {
+                        /** Prevent multiple click */
+                        /** Prevent multiple click */
+                        /** Prevent multiple click */
+
                         /** Prevent multiple click */
                         if (animatedFloatProductSize !in 1..floatingProductSize.dec()) {
                             if (!onCart) {

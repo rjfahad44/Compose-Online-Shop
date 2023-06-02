@@ -1,4 +1,4 @@
-package com.mustfaibra.roffu.components
+package com.ft.compose_online_shop.components
 
 
 import androidx.compose.foundation.background
@@ -29,7 +29,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
-import com.mustfaibra.roffu.ui.theme.Dimension
+import com.ft.compose_online_shop.ui.theme.Dimension
 
 @Composable
 fun IconButton(
