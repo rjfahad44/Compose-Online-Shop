@@ -3,6 +3,7 @@ package com.ft.compose_online_shop.models
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
+import com.ft.compose_online_shop.utils.getFormattedDate
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import java.util.*

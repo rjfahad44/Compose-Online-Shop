@@ -2,6 +2,7 @@ package com.ft.compose_online_shop.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.ft.compose_online_shop.sealed.AdvertisementType
 
 @Entity
 data class Advertisement(

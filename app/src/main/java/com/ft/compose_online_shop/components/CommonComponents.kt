@@ -56,12 +56,11 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
 import coil.compose.AsyncImage
-import com.mustfaibra.roffu.R
-import com.mustfaibra.roffu.sealed.MenuOption
-import com.mustfaibra.roffu.sealed.Screen
+import com.ft.compose_online_shop.sealed.MenuOption
+import com.ft.compose_online_shop.sealed.Screen
 import com.mustfaibra.roffu.ui.theme.Dimension
-import com.mustfaibra.roffu.utils.getDiscountedValue
-import com.mustfaibra.roffu.utils.getDp
+import com.ft.compose_online_shop.utils.getDiscountedValue
+import com.ft.compose_online_shop.utils.getDp
 import kotlin.math.roundToInt
 
 @Composable
