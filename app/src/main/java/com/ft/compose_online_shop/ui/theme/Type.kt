@@ -2,33 +2,67 @@ package com.ft.compose_online_shop.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.ft.compose_online_shop.R
+
+val font = FontFamily(
+    Font(resId = R.font.poppins_light, weight = FontWeight.ExtraLight, style = FontStyle.Normal),
+    Font(resId = R.font.poppins_black, weight = FontWeight.Black, style = FontStyle.Normal),
+    Font(resId = R.font.poppins_regular, weight = FontWeight.Normal, style = FontStyle.Normal),
+    Font(resId = R.font.poppin_medium, weight = FontWeight.Medium, style = FontStyle.Normal),
+    Font(resId = R.font.poppins_bold, weight = FontWeight.SemiBold, style = FontStyle.Normal),
+    Font(resId = R.font.poppins_extra_bold, weight = FontWeight.Bold, style = FontStyle.Normal),
+)
 
 // Set of Material typography styles to start with
-val Typography = Typography(
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
+val Typography = androidx.compose.material.Typography(
+    h1 = TextStyle(
+        fontWeight = FontWeight.Black,
+        fontSize = 35.sp
     ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
+    h2 = TextStyle(
+        fontWeight = FontWeight.Bold,
+        fontSize = 32.sp
+    ),
+    h3 = TextStyle(
+        fontWeight = FontWeight.Bold,
+        fontSize = 28.sp
+    ),
+    h4 = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 25.sp
+    ),
+    h5 = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 22.sp
+    ),
+    body1 = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 17.sp
+    ),
+    body2 = TextStyle(
         fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
+        fontSize = 16.sp
+    ),
+    button = TextStyle(
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 19.sp
+    ),
+    caption = TextStyle(
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    ),
+    subtitle1 = TextStyle(
+        fontWeight = FontWeight.Light,
+        fontSize = 15.sp
+    ),
+    subtitle2 = TextStyle(
+        fontWeight = FontWeight.Light,
+        fontSize = 14.sp
+    ),
+    defaultFontFamily = font,
 )

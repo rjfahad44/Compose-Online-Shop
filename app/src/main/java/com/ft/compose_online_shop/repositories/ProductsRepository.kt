@@ -12,6 +12,7 @@ import com.ft.compose_online_shop.sealed.DataResponse
 import com.ft.compose_online_shop.sealed.Error
 import com.ft.compose_online_shop.utils.UserPref
 import com.ft.compose_online_shop.utils.getFormattedDate
+import com.ft.compose_online_shop.utils.getStructuredProducts
 import java.util.Date
 import javax.inject.Inject
 
