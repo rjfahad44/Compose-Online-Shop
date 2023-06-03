@@ -61,8 +61,9 @@ You can download the demo from [here](https://github.com/mustfaibra/RoFFu/blob/m
 
 Feel free to connect or to follow me here 👇🏾
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
-(https://www.linkedin.com/in/fahad-alam-21b8601a9/)]
+<a href="https://www.linkedin.com/in/fahad-alam-21b8601a9/">
+      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+ </a>
 
 
 Also, don't forget to ⭐ this repository 😁
