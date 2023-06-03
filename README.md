@@ -26,15 +26,17 @@ You can download the demo from [here](https://github.com/mustfaibra/RoFFu/blob/m
 
 # 📸Screenshots
 
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/splash.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/landing.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/home.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/details.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/cart.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/login.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/checkout.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/profile.jpg" width="200">
-<img src="https://github.com/mustfaibra/RoFFu/blob/master/app/screenshots/history.jpg" width="200">
+
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+<img src="https://" width="200">
+
 
 
 # 🧑🏾‍💻Tech used
@@ -60,7 +62,7 @@ You can download the demo from [here](https://github.com/mustfaibra/RoFFu/blob/m
 Feel free to connect or to follow me here 👇🏾
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
-(https://www.linkedin.com/in/fahad-alam-21b8601a9/)
+(https://www.linkedin.com/in/fahad-alam-21b8601a9/)]
 
 
 Also, don't forget to ⭐ this repository 😁
