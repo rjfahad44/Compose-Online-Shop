@@ -24,6 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import coil.compose.rememberAsyncImagePainter
@@ -31,6 +32,7 @@ import com.ft.compose_online_shop.R
 import com.ft.compose_online_shop.components.DrawableButton
 import com.ft.compose_online_shop.components.IconButton
 import com.ft.compose_online_shop.models.User
+import com.ft.compose_online_shop.screens.onboard.OnboardScreen
 import com.ft.compose_online_shop.sealed.Screen
 import com.ft.compose_online_shop.ui.theme.Dimension
 
@@ -213,3 +215,4 @@ fun ProfileHeaderSection(image: Int?, name: String, email: String?, phone: Strin
         }
     }
 }
+
