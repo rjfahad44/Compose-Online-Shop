@@ -24,7 +24,7 @@ Online Shop is an online store specialized in sports shoes & Sneakers of many fa
 You can download the demo from [here](https://github.com/mustfaibra/RoFFu/blob/master/app/release/roffu.apk).
 
 
-# 📸Screenshots
+# 📸
 
 
 <img src="https://" width="200">
