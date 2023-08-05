@@ -21,7 +21,7 @@ Online Shop is an online store specialized in sports shoes & Sneakers of many fa
 
 # 🧐Want to try it?
 
-You can download the demo from [here](put demo apk url here).
+You can download the demo from [here](https://github.com/rjfahad44/Compose-Online-Shop/tree/main).
 
 
 # 📸
