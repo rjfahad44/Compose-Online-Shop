@@ -29,8 +29,8 @@ You can download the demo from [here](https://github.com/rjfahad44/Compose-Onlin
 
 
 
-<img src="https://" width="012">
-<img src="https://" width="012">
+<img src="https://" width="12">
+<img src="https://" width="12">
 
 
 
