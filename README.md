@@ -30,7 +30,7 @@ You can download the demo from [here](https://github.com/rjfahad44/Compose-Onlin
 
 
 <img src="https://" width="103">
-<img src="https://" width="102">
+<img src="https://" width="103">
 
 
 
